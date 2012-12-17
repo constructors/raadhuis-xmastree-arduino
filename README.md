@@ -22,9 +22,9 @@ Testing
 Since we don't lack confidence, there are no tests.
 
 Get a color:
-echo -e 'g' | netcat $host $port
+    echo -e 'g' | netcat $host $port
 Set a color:
-echo -e 's\xff\x00\xff' | netcat $host $port
+    echo -e 's\xff\x00\xff' | netcat $host $port
 
 Artists rendering of the hardware setup:
 ***
